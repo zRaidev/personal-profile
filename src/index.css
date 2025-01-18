@@ -1,0 +1,16 @@
+@import './assets/fonts/fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --primary: #c2ab8e;
+    --dark-primary: #b09c82;
+  }
+  
+  .font-default {
+    font-family: 'SF-Pro-Display', sans-serif; /*SFPD doesn't work*/
+  }
+}

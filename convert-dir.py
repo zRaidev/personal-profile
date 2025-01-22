@@ -29,4 +29,4 @@ def convert_and_remove_non_webp(input_folder):
         print(f"Error al procesar imágenes: {e}")
 
 # Ejemplo de uso
-convert_and_remove_non_webp("./src/assets/images/Discounts")
+convert_and_remove_non_webp("./src/assets/images/YoutubeThumbnail/")

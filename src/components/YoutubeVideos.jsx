@@ -53,9 +53,6 @@ function YoutubeVideos () {
 
   return (
     <section className='text-white'>
-      <div className='pr-5 mb-4'>
-        <div className='w-full h-px bg-[#0000001f]' />
-      </div>
       <div className=''>
         <h2 className='uppercase text-2xl font-bold mb-2'>Latest videos</h2>
       </div>

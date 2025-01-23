@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/images/Discounts/merch-1.webp",
+    "text": "Amazon Product #1",
+    "subtxt": "",
+    "link": "https://www.amazon.com"
+  },
+  {
+    "img": "/images/Discounts/merch-2.webp",
+    "text": "Amazon Product #2",
+    "subtxt": "",
+    "link": "https://www.amazon.com"
+  },
+  {
+    "img": "/images/Discounts/merch-3.webp",
+    "text": "Amazon Product #3",
+    "subtxt": "",
+    "link": "https://www.amazon.com"
+  },
+  {
+    "img": "/images/Discounts/merch-4.webp",
+    "text": "Amazon Product #4",
+    "subtxt": "",
+    "link": "https://www.amazon.com"
+  },
+  {
+    "img": "/images/Discounts/merch-4.webp",
+    "text": "Amazon Product #5",
+    "subtxt": "",
+    "link": "https://www.amazon.com"
+  }
+]

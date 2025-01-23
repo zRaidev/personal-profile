@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/images/Discounts/merch-1.webp",
+    "text": "Merch #1",
+    "subtxt": "10% OFF",
+    "link": "https://www.amazon.com"
+  },
+  {
+    "img": "/images/Discounts/merch-2.webp",
+    "text": "Merch #2",
+    "subtxt": "10% OFF",
+    "link": "https://www.amazon.com"
+  },
+  {
+    "img": "/images/Discounts/merch-3.webp",
+    "text": "Merch #3",
+    "subtxt": "10% OFF",
+    "link": "https://www.amazon.com"
+  },
+  {
+    "img": "/images/Discounts/merch-4.webp",
+    "text": "Merch #4",
+    "subtxt": "10% OFF",
+    "link": "https://www.amazon.com"
+  }
+]

@@ -35,7 +35,7 @@ const videoData = [
     videoName: 'VIDEO EXAMPLE #7 - You can use your video'
   }
 ]
-function YoutubeVideos () {
+function YoutubeVideos ({ id }) {
   const freeModeBoolean = true
 
   const isXSmallDevice = useMediaQuery({ query: '(max-width: 385px)' })
@@ -52,7 +52,7 @@ function YoutubeVideos () {
   }
 
   return (
-    <section className='text-white'>
+    <section id={id} className='text-white'>
       <div className=''>
         <h2 className='uppercase text-2xl font-bold mb-2'>Latest videos</h2>
       </div>

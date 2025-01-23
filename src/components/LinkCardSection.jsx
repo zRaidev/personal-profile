@@ -7,7 +7,7 @@ import 'swiper/css/free-mode'
 
 import LinkCard from './LinkCard.jsx'
 
-function LinkCardSection ({ sectionTitle, jsonFile }) {
+function LinkCardSection ({ sectionTitle, jsonFile, id }) {
   const freeModeBoolean = true
   // fetch data
   const [cardsInfo, setCardInfo] = useState()
@@ -54,7 +54,7 @@ function LinkCardSection ({ sectionTitle, jsonFile }) {
   }, [cardsInfo])
 
   return (
-    <section id='merch' className='text-[white] uppercase'>
+    <section id={id} className='text-[white] uppercase'>
       <h2 className='text-2xl font-bold mb-2'>{sectionTitle}</h2>
       <Swiper
         slidesPerView='1.3'

@@ -5,6 +5,8 @@ import YoutubeVideos from './components/YoutubeVideos.jsx'
 import SectionSeparator from './components/SectionSeparator.jsx'
 import SpotifyCardsSection from './components/SpotifyCardsSection.jsx'
 import ProfileCardSection from './components/ProfileCardSection.jsx'
+import LinkCard from './components/LinkCard.jsx'
+import Footer from './components/Footer.jsx'
 
 function App () {
   const targetBlank = false // true = open in other window
@@ -45,7 +47,15 @@ function App () {
         />
         <SectionSeparator />
 
+        <LinkCard
+          width='w-[94%]'
+          text='Your Business'
+          img='images/business.webp'
+          link='https://www.google.com'
+        />
+        <SectionSeparator />
       </main>
+      <Footer />
     </div>
   )
 }

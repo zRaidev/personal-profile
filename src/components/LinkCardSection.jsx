@@ -1,5 +1,6 @@
 // DISCOUNTS SECTION OR MERCH
 import { useState, useEffect } from 'react'
+import { useMediaQuery } from 'react-responsive'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode } from 'swiper/modules'
 import 'swiper/css'
@@ -53,11 +54,24 @@ function LinkCardSection ({ sectionTitle, jsonFile, id }) {
     setSlides(slides)
   }, [cardsInfo])
 
+  const isXSmallDevice = useMediaQuery({ query: '(max-width: 385px)' })
+  const isSmallDevice = useMediaQuery({ query: '(max-width: 450px)' })
+
+  const isDevice = () => {
+    if (isXSmallDevice) {
+      return 1.15
+    } else if (isSmallDevice) {
+      return 1.3
+    } else {
+      return 1.55
+    }
+  }
+
   return (
     <section id={id} className='text-[white] uppercase'>
       <h2 className='text-2xl font-bold mb-2'>{sectionTitle}</h2>
       <Swiper
-        slidesPerView='1.3'
+        slidesPerView={isDevice()}
         spaceBetween={0}
         freeMode={freeModeBoolean}
         pagination={{
